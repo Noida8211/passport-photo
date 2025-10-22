@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Passport Photo Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Passport Photo Converter</h1>
+  <p>Upload your photo and get perfect passport-sized images instantly.</p>
+</header>
+
+<section class="upload-section">
+  <div class="upload-box">
+    <input type="file" id="fileInput" accept="image/*" style="display:none;">
+    <button id="uploadBtn">Upload Photo</button>
+
+    <div class="preview">
+      <img id="previewImage" src="" alt="Preview will appear here" style="display:none;">
+    </div>
+
+    <button id="removeBgBtn" style="display:none;">Remove Background</button>
+    <button id="downloadBtn" style="display:none;">Download Photo</button>
+  </div>
+</section>
+
+<section class="features">
+  <div class="feature">
+    <h3>🎨 AI Background Removal</h3>
+    <p>Automatically remove background with one click.</p>
+  </div>
+  <div class="feature">
+    <h3>📏 Auto Resize</h3>
+    <p>Resize perfectly to passport 600x600 px.</p>
+  </div>
+  <div class="feature">
+    <h3>⚡ Instant Download</h3>
+    <p>Get your photo ready in seconds.</p>
+  </div>
+</section>
+
+<footer>
+  <p>Made with ❤️ by Rohit | © 2025 Passport Photo Converter</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
